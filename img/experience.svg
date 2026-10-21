@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Career timeline with milestones">
+  <rect width="400" height="300" fill="#0c1722"/>
+  <!-- timeline -->
+  <line x1="60" y1="60" x2="60" y2="250" stroke="#3cc8d6" stroke-width="3"/>
+  <!-- milestones -->
+  <circle cx="60" cy="70" r="10" fill="#3cc8d6"/>
+  <circle cx="60" cy="120" r="10" fill="#3cc8d6" opacity="0.8"/>
+  <circle cx="60" cy="170" r="10" fill="#3cc8d6" opacity="0.6"/>
+  <circle cx="60" cy="220" r="10" fill="#3cc8d6" opacity="0.4"/>
+  <!-- milestone labels -->
+  <rect x="90" y="60" width="120" height="20" rx="10" fill="#13212f" stroke="#233648"/>
+  <rect x="90" y="110" width="150" height="20" rx="10" fill="#13212f" stroke="#233648"/>
+  <rect x="90" y="160" width="110" height="20" rx="10" fill="#13212f" stroke="#233648"/>
+  <rect x="90" y="210" width="170" height="20" rx="10" fill="#13212f" stroke="#233648"/>
+  <!-- flag at top -->
+  <line x1="330" y1="40" x2="330" y2="80" stroke="#3cc8d6" stroke-width="3"/>
+  <path d="M330 40h40l-10 14 10 14h-40z" fill="#3cc8d6" opacity="0.8"/>
+  <!-- certificate -->
+  <rect x="280" y="180" width="80" height="60" rx="6" fill="#13212f" stroke="#233648" stroke-width="2"/>
+  <circle cx="320" cy="205" r="14" fill="none" stroke="#3cc8d6" stroke-width="2"/>
+  <text x="313" y="211" font-family="sans-serif" font-size="14" fill="#3cc8d6">✓</text>
+  <line x1="292" y1="228" x2="348" y2="228" stroke="#3cc8d6" stroke-width="2" opacity="0.5"/>
+</svg>

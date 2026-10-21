@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Envelope and chat bubbles for contact">
+  <rect width="400" height="300" fill="#0c1722"/>
+  <!-- envelope -->
+  <rect x="70" y="110" width="180" height="110" rx="10" fill="#13212f" stroke="#3cc8d6" stroke-width="3"/>
+  <path d="M75 118l85 62 85-62" fill="none" stroke="#3cc8d6" stroke-width="3" stroke-linecap="round"/>
+  <!-- chat bubble -->
+  <path d="M250 60h90c10 0 16 6 16 16v50c0 10-6 16-16 16h-60l-20 20v-20h-10c-10 0-16-6-16-16V76c0-10 6-16 16-16z" fill="#13212f" stroke="#3cc8d6" stroke-width="3"/>
+  <circle cx="272" cy="100" r="5" fill="#3cc8d6"/>
+  <circle cx="295" cy="100" r="5" fill="#3cc8d6" opacity="0.7"/>
+  <circle cx="318" cy="100" r="5" fill="#3cc8d6" opacity="0.4"/>
+  <!-- phone -->
+  <rect x="300" y="180" width="50" height="90" rx="10" fill="#13212f" stroke="#3cc8d6" stroke-width="3"/>
+  <rect x="310" y="192" width="30" height="60" rx="3" fill="#233648"/>
+  <circle cx="325" cy="260" r="5" fill="#3cc8d6" opacity="0.7"/>
+  <!-- signal dots -->
+  <circle cx="70" cy="70" r="5" fill="#3cc8d6" opacity="0.5"/>
+  <circle cx="90" cy="55" r="4" fill="#3cc8d6" opacity="0.4"/>
+  <circle cx="108" cy="42" r="3" fill="#3cc8d6" opacity="0.3"/>
+</svg>

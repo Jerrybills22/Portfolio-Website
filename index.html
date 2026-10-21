@@ -1,0 +1,299 @@
+<!-- Tells the browser this is a modern HTML5 page -->
+<!doctype html>
+<!-- Root element; lang helps screen readers and search engines -->
+<html lang="en">
+  <head>
+    <!-- Lets the page show all characters correctly -->
+    <meta charset="UTF-8" />
+    <!-- Makes the page fit phone screens -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Text shown on the browser tab -->
+    <title>Jerry Ayayee | IT &amp; Web Engineer</title>
+    <!-- Favicon: the small icon shown on the browser tab -->
+    <link rel="icon" type="image/svg+xml" href="img/JA_favicon.svg" />
+    <!-- Text Google shows under your link -->
+    <meta
+      name="description"
+      content="Portfolio of Jerry Ayie Ayayee, an IT infrastructure and web engineer in Takoradi, Ghana working in cloud, networking and IT support."
+    />
+    <!-- Starts connecting to Google Fonts early -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- Loads two fonts: one for headings, one for text -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Cinzel:wght@700&family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Connects our separate CSS file -->
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/theme.js"></script>
+  </head>
+  <body>
+    <!-- Lets keyboard users jump past the menu -->
+    <a class="skip" href="#main">Skip to content</a>
+
+    <!-- Sticky bar at the top -->
+    <header class="top">
+      <!-- Your name; clicking goes to the top -->
+      <a class="brand" href="#home">Jerry Ayayee</a>
+      <!-- Shows the menu on phones -->
+      <button id="menuBtn" class="icon" aria-label="Open menu" aria-expanded="false">Menu</button>
+      <!-- Navigation links -->
+      <nav id="nav" aria-label="Main">
+                <a href="#home"><svg class="home-ic" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/></svg> Home</a>
+<a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="experience.html">Experience</a>
+        <a href="projects.html">Projects</a>
+        <a href="notes.html">Notes</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <!-- Theme picker: click "Theme" then choose Light, Darkness or Auto -->
+      <div class="theme-menu">
+        <button id="themeBtn" class="icon" aria-haspopup="true" aria-expanded="false" aria-controls="themeMenu">Theme</button>
+        <div id="themeMenu" class="theme-drop" hidden>
+          <button type="button" data-theme-choice="light">Light</button>
+          <button type="button" data-theme-choice="dark">Darkness</button>
+          <button type="button" data-theme-choice="auto">Auto</button>
+          <div id="themeSchedule" class="sched" hidden>
+            <label class="sched-row">Night starts <input type="time" id="schedFrom" value="18:00" /></label>
+            <label class="sched-row">Night ends <input type="time" id="schedTo" value="06:00" /></label>
+            <p class="sched-hint">The site switches by itself between these times.</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- The main content of the page -->
+    <main id="main">
+      <!-- Hero: the first thing visitors see -->
+      <section id="home" class="hero">
+        <div class="hero-text">
+          <!-- Your full name -->
+          <h1>Jerry Ayie Ayayee</h1>
+          <!-- JavaScript types your roles here -->
+          <p class="role">
+            I am an <span id="typed" aria-live="off"></span><span class="caret"></span>
+          </p>
+          <p class="lead">
+            I keep networks, computers and cloud systems running, and I build the websites that go
+            with them. Based in Takoradi, Ghana.
+          </p>
+          <p class="cta">
+            <!-- Primary button -->
+            <a class="btn" href="#projects">See my work</a>
+            <!-- Secondary button -->
+            <a class="btn ghost" href="#contact">Get in touch</a>
+          </p>
+        </div>
+        <!-- Terminal card: the memorable feature -->
+        <div class="term" id="term" aria-label="Interactive terminal">
+          <div class="term-bar">jerry@takoradi: ~</div>
+          <!-- Terminal replies appear here -->
+          <div class="term-out" id="termOut" role="log"></div>
+          <!-- Where visitors type commands -->
+          <label class="term-in"
+            ><span>$</span
+            ><input
+              id="termIn"
+              type="text"
+              autocomplete="off"
+              spellcheck="false"
+              placeholder="type help and press Enter"
+          /></label>
+        </div>
+      </section>
+
+      <section id="about" class="block reveal">
+        <h2>About me</h2>
+                <img class="sec-img" src="img/about.jpg" alt="" width="400" height="300" loading="lazy" />
+<p class="more"><a href="about.html">View full page &rarr;</a></p>
+        <p>
+          I am an IT professional with hands-on experience in technical support, network
+          infrastructure and front-end web development. I recently completed a Bachelor of
+          Information Technology and I am working towards my AWS Cloud Administrator certification.
+        </p>
+        <p>
+          At the Ghana Ports and Harbour Authority I supported about 20 PCs and 10 printers per
+          department, built network cabling and automated a vessel reporting workflow in Excel. I
+          want to bring that practical experience to a Cloud Support or IT Infrastructure role.
+        </p>
+        <p>
+          <strong>Languages:</strong> English, Ewe, Fante, Twi.<br /><strong
+            >Away from the screen:</strong
+          >
+          reading, video games, football, basketball, exercise, walking, anime and donghua, music
+          and travelling.
+        </p>
+      </section>
+
+      <section id="skills" class="block reveal">
+        <h2>Skills</h2>
+                <img class="sec-img" src="img/skills.jpg" alt="" width="400" height="300" loading="lazy" />
+<p class="more"><a href="skills.html">View full page &rarr;</a></p>
+        <!-- Each group lists real skills from the CV -->
+        <div class="grid">
+          <div class="card">
+            <h3>Cloud</h3>
+            <p>
+              AWS EC2, VPC, IAM, S3, Systems Manager. AWS Cloud Administrator certification in
+              progress.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Networking</h3>
+            <p>
+              RJ45 termination (T568B), UTP Cat 6e, switches, wireless access points,
+              troubleshooting, Cisco Packet Tracer, CCNA training.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Systems</h3>
+            <p>
+              Windows and Ubuntu installation, domain join, user accounts, scheduled backups,
+              hardware repair.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Web and tools</h3>
+            <p>
+              HTML, CSS, JavaScript, advanced Excel automation, Word, PowerPoint, iVMS-4200 CCTV
+              software.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="block reveal">
+        <h2>Experience and education</h2>
+                <img class="sec-img" src="img/experience.jpg" alt="" width="400" height="300" loading="lazy" />
+<p class="more"><a href="experience.html">View full page &rarr;</a></p>
+        <!-- A real sequence in time, so a timeline fits -->
+        <ol class="timeline">
+          <li>
+            <h3>National Service, IT at the Dry Bulk Terminal</h3>
+            <span>Ghana Ports and Harbour Authority, Dec 2025 to Oct 2026</span>
+            <p>
+              Automated the final vessel report in Excel for the Terminal Manager, supported
+              department hardware and networks, configured wireless access points on conveyor belts
+              as a backup link to the ship loaders, and monitored CCTV.
+            </p>
+          </li>
+          <li>
+            <h3>Intern, Customs Division</h3>
+            <span>Ghana Revenue Authority, Nov 2024</span>
+            <p>
+              Filed and archived documents to the server, troubleshot computers and worked with
+              scanning alongside ICUMS.
+            </p>
+          </li>
+          <li>
+            <h3>Front-End Development Intern</h3>
+            <span>AmaliTech Ghana, Apr 2024</span>
+            <p>Built websites and a personal portfolio site.</p>
+          </li>
+          <li>
+            <h3>Bachelor of Information Technology</h3>
+            <span>Ghana Communication Technology University, 2021 to 2025</span>
+            <p>
+              Also trained with IMPRO TECH in cyber security, networking (CCNA), system
+              administration and cloud engineering.
+            </p>
+          </li>
+          <li>
+            <h3>WASSCE, General Arts</h3>
+            <span>St. Joseph Senior High School, 2017 to 2020</span>
+          </li>
+        </ol>
+      </section>
+
+      <section id="projects" class="block reveal">
+        <h2>Projects</h2>
+                <img class="sec-img" src="img/projects.jpg" alt="" width="400" height="300" loading="lazy" />
+<p class="more"><a href="projects.html">View full page &rarr;</a></p>
+        <!-- Buttons filter the cards below -->
+        <div class="filters" role="group" aria-label="Filter projects">
+          <button class="chip on" data-f="all">All</button
+          ><button class="chip" data-f="automation">Automation</button
+          ><button class="chip" data-f="network">Networking</button
+          ><button class="chip" data-f="cloud">Cloud</button
+          ><button class="chip" data-f="web">Web</button>
+        </div>
+        <div class="grid">
+          <article class="card proj" data-c="automation">
+            <h3>Vessel report automation</h3>
+            <p>
+              An Excel workbook that produces the final report for any vessel at the Dry Bulk
+              Terminal, replacing a manual process.
+            </p>
+          </article>
+          <article class="card proj" data-c="network">
+            <h3>Conveyor belt wireless backup</h3>
+            <p>
+              Checked and configured wireless access points that give the control room remote access
+              to ship loaders if the fibre link fails.
+            </p>
+          </article>
+          <article class="card proj" data-c="network">
+            <h3>Department network cabling</h3>
+            <p>
+              Built Cat 6e cables to the T568B standard and connected department PCs to the main
+              switch, verified with ping tests.
+            </p>
+          </article>
+          <article class="card proj" data-c="cloud">
+            <h3>AWS hands-on labs</h3>
+            <p>
+              Practical work with EC2, VPC, IAM, S3 and Systems Manager while studying for the AWS
+              Cloud Administrator certification.
+            </p>
+          </article>
+          <article class="card proj" data-c="web">
+            <h3>Websites and portfolio</h3>
+            <p>
+              Front-end sites built during my AmaliTech Ghana internship, and this portfolio. Add
+              live links here when ready.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="notes" class="block reveal">
+        <h2>Notes</h2>
+                <img class="sec-img" src="img/notes.jpg" alt="" width="400" height="300" loading="lazy" />
+<p class="more"><a href="notes.html">View full page &rarr;</a></p>
+        <!-- Placeholder until blog posts are added -->
+        <p>
+          Write-ups of what I learn in my AWS labs will live here. The first post is on its way.
+        </p>
+      </section>
+
+      <section id="contact" class="block reveal">
+        <h2>Contact</h2>
+                <img class="sec-img" src="img/contact.jpg" alt="" width="400" height="300" loading="lazy" />
+<p class="more"><a href="contact.html">View full page &rarr;</a></p>
+        <!-- wa.me opens a WhatsApp chat -->
+        <p>
+          Email <a href="mailto:jerryayayee@gmail.com">jerryayayee@gmail.com</a>, call
+          <a href="tel:+233534919498">+233 53 491 9498</a>, or
+          <a href="https://wa.me/233593540910">message me on WhatsApp</a>.
+        </p>
+        <!-- Replace YOUR_FORM_ID after you sign up at formspree.io -->
+        <form id="form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+          <label>Name<input name="name" required /></label>
+          <label>Email<input name="email" type="email" required /></label>
+          <label>Message<textarea name="message" rows="5" required></textarea></label>
+          <button class="btn" type="submit">Send message</button>
+          <!-- Success or error text appears here -->
+          <p id="formMsg" role="status"></p>
+        </form>
+      </section>
+    </main>
+
+    <!-- JavaScript fills in the year -->
+    <footer>&copy; <span id="year"></span> Jerry Ayie Ayayee. Takoradi, Ghana.</footer>
+    <!-- Appears after scrolling down -->
+    <button id="toTop" class="icon" aria-label="Back to top" hidden>Top</button>
+    <!-- Connects our separate JavaScript file -->
+    <script src="js/main.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Home welcome illustration">
+  <rect width="400" height="300" fill="#0c1722"/>
+  <!-- house -->
+  <path d="M120 150l80-70 80 70v90c0 8-6 14-14 14H134c-8 0-14-6-14-14z" fill="#13212f" stroke="#3cc8d6" stroke-width="3"/>
+  <path d="M110 158l90-80 90 80" fill="none" stroke="#3cc8d6" stroke-width="4" stroke-linecap="round"/>
+  <!-- door -->
+  <rect x="182" y="180" width="36" height="60" rx="4" fill="#3cc8d6" opacity="0.6"/>
+  <circle cx="210" cy="212" r="3" fill="#0c1722"/>
+  <!-- windows -->
+  <rect x="140" y="170" width="30" height="28" rx="3" fill="#233648" stroke="#3cc8d6" stroke-width="2"/>
+  <rect x="230" y="170" width="30" height="28" rx="3" fill="#233648" stroke="#3cc8d6" stroke-width="2"/>
+  <!-- server rack inside - tech twist -->
+  <rect x="145" y="212" width="24" height="28" rx="3" fill="#233648" stroke="#3cc8d6" stroke-width="2"/>
+  <rect x="230" y="212" width="24" height="28" rx="3" fill="#233648" stroke="#3cc8d6" stroke-width="2"/>
+  <!-- wifi -->
+  <path d="M180 90c14-14 26-14 40 0" fill="none" stroke="#3cc8d6" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <path d="M188 100c8-8 16-8 24 0" fill="none" stroke="#3cc8d6" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <circle cx="200" cy="110" r="4" fill="#3cc8d6"/>
+  <!-- path -->
+  <path d="M186 240h28l16 30h-60z" fill="#233648" opacity="0.6"/>
+  <!-- stars -->
+  <circle cx="60" cy="50" r="4" fill="#3cc8d6" opacity="0.5"/>
+  <circle cx="340" cy="45" r="5" fill="#3cc8d6" opacity="0.4"/>
+  <circle cx="300" cy="80" r="3" fill="#3cc8d6" opacity="0.4"/>
+  <circle cx="80" cy="100" r="3" fill="#3cc8d6" opacity="0.35"/>
+</svg>

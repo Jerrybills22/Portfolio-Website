@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Project folder with tools">
+  <rect width="400" height="300" fill="#0c1722"/>
+  <!-- big folder -->
+  <path d="M60 90h100l20 24h160c12 0 20 8 20 20v100c0 12-8 20-20 20H60c-12 0-20-8-20-20V110c0-12 8-20 20-20z" fill="#13212f" stroke="#3cc8d6" stroke-width="3"/>
+  <!-- wrench -->
+  <circle cx="150" cy="170" r="18" fill="none" stroke="#3cc8d6" stroke-width="4"/>
+  <line x1="163" y1="183" x2="195" y2="215" stroke="#3cc8d6" stroke-width="6" stroke-linecap="round"/>
+  <!-- code brackets -->
+  <text x="220" y="190" font-family="monospace" font-size="40" fill="#3cc8d6" opacity="0.85">&lt;/&gt;</text>
+  <!-- gears -->
+  <circle cx="300" cy="90" r="16" fill="#3cc8d6" opacity="0.35"/>
+  <circle cx="300" cy="90" r="7" fill="#0c1722"/>
+  <circle cx="270" cy="115" r="11" fill="#3cc8d6" opacity="0.25"/>
+  <circle cx="270" cy="115" r="5" fill="#0c1722"/>
+  <!-- floating dots -->
+  <circle cx="80" cy="50" r="5" fill="#3cc8d6" opacity="0.5"/>
+  <circle cx="120" cy="35" r="3" fill="#3cc8d6" opacity="0.35"/>
+</svg>

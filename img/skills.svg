@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Cloud and network skills diagram">
+  <rect width="400" height="300" fill="#0c1722"/>
+  <!-- cloud -->
+  <path d="M120 80c-24 0-38 16-38 34 0 20 16 32 34 32h96c20 0 34-14 34-32 0-18-14-34-36-34-4-18-20-28-44-28s-42 12-46 28z" fill="#13212f" stroke="#3cc8d6" stroke-width="3"/>
+  <circle cx="170" cy="100" r="6" fill="#3cc8d6"/>
+  <circle cx="140" cy="112" r="4" fill="#3cc8d6" opacity="0.7"/>
+  <circle cx="200" cy="112" r="4" fill="#3cc8d6" opacity="0.7"/>
+  <!-- server rack -->
+  <rect x="60" y="190" width="90" height="70" rx="8" fill="#13212f" stroke="#233648" stroke-width="2"/>
+  <rect x="70" y="200" width="70" height="14" rx="3" fill="#3cc8d6" opacity="0.6"/>
+  <rect x="70" y="220" width="70" height="14" rx="3" fill="#3cc8d6" opacity="0.4"/>
+  <rect x="70" y="240" width="70" height="14" rx="3" fill="#3cc8d6" opacity="0.3"/>
+  <!-- laptop -->
+  <rect x="250" y="200" width="90" height="50" rx="6" fill="#13212f" stroke="#3cc8d6" stroke-width="2"/>
+  <rect x="256" y="206" width="78" height="32" rx="3" fill="#233648"/>
+  <!-- connecting lines -->
+  <line x1="170" y1="146" x2="105" y2="190" stroke="#3cc8d6" stroke-width="2" opacity="0.5"/>
+  <line x1="170" y1="146" x2="295" y2="200" stroke="#3cc8d6" stroke-width="2" opacity="0.5"/>
+  <circle cx="105" cy="190" r="4" fill="#3cc8d6"/>
+  <circle cx="295" cy="200" r="4" fill="#3cc8d6"/>
+</svg>

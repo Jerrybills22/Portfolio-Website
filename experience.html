@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Experience | Jerry Ayayee</title>
+    <!-- Favicon: the small icon shown on the browser tab -->
+    <link rel="icon" type="image/svg+xml" href="img/JA_favicon.svg" />
+  <meta name="description"
+    content="Work experience and education of Jerry Ayie Ayayee, IT professional in Takoradi, Ghana." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Cinzel:wght@700&family=Inter:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/theme.js"></script>
+</head>
+
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="top">
+    <a class="brand" href="index.html">Jerry Ayayee</a>
+    <button id="menuBtn" class="icon" aria-label="Open menu" aria-expanded="false">Menu</button>
+    <nav id="nav" aria-label="Main">
+              <a href="index.html"><svg class="home-ic" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/></svg> Home</a>
+<a href="about.html">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="experience.html" aria-current="page">Experience</a>
+      <a href="projects.html">Projects</a>
+      <a href="notes.html">Notes</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <!-- Theme picker: click "Theme" then choose Light, Darkness or Auto -->
+    <div class="theme-menu">
+      <button id="themeBtn" class="icon" aria-haspopup="true" aria-expanded="false" aria-controls="themeMenu">Theme</button>
+      <div id="themeMenu" class="theme-drop" hidden>
+        <button type="button" data-theme-choice="light">Light</button>
+        <button type="button" data-theme-choice="dark">Darkness</button>
+        <button type="button" data-theme-choice="auto">Auto</button>
+        <div id="themeSchedule" class="sched" hidden>
+          <label class="sched-row">Night starts <input type="time" id="schedFrom" value="18:00" /></label>
+          <label class="sched-row">Night ends <input type="time" id="schedTo" value="06:00" /></label>
+          <p class="sched-hint">The site switches by itself between these times.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="block sub reveal">
+      <h1 class="sub-title">Experience and education</h1>
+              <img class="sec-img" src="img/experience.jpg" alt="" width="400" height="300" loading="lazy" />
+<p class="crumbs"><a href="index.html">&larr; Back to home</a></p>
+      <ol class="timeline">
+        <li>
+          <h3>National Service, IT at the Dry Bulk Terminal</h3>
+          <span>Ghana Ports and Harbour Authority, Dec 2025 to Oct 2026</span>
+          <p>
+            Automated the final vessel report in Excel for the Terminal Manager, supported
+            department hardware and networks, configured wireless access points on conveyor belts
+            as a backup link to the ship loaders, and monitored CCTV.
+          </p>
+        </li>
+        <li>
+          <h3>Intern, Customs Division</h3>
+          <span>Ghana Revenue Authority, Nov 2024</span>
+          <p>
+            Filed and archived documents to the server, troubleshot computers and worked with
+            scanning alongside ICUMS.
+          </p>
+        </li>
+        <li>
+          <h3>Front-End Development Intern</h3>
+          <span>AmaliTech Ghana, Apr 2024</span>
+          <p>Built websites and a personal portfolio site.</p>
+        </li>
+        <li>
+          <h3>Bachelor of Information Technology</h3>
+          <span>Ghana Communication Technology University, 2021 to 2025</span>
+          <p>
+            Also trained with IMPRO TECH in cyber security, networking (CCNA), system
+            administration and cloud engineering.
+          </p>
+        </li>
+        <li>
+          <h3>WASSCE, General Arts</h3>
+          <span>St. Joseph Senior High School, 2017 to 2020</span>
+        </li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>&copy; <span id="year"></span> Jerry Ayie Ayayee. Takoradi, Ghana.</footer>
+  <button id="toTop" class="icon" aria-label="Back to top" hidden>Top</button>
+  <script src="js/main.js" defer></script>
+</body>
+
+</html>
